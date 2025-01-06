@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+*{height: max-content;}
+
+body {
+    background-image: linear-gradient(to top, rgb(163, 163, 219), rgb(157, 226, 157));
+     font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-attachment: fixed;
+}
+h1 {
+   color: rgb(138, 161, 112); 
+}
+p {color: rgb(66, 65, 49);
+background-color: rgb(245, 255, 155);
+text-align: justify;}

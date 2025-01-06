@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+}
+h1 {
+    color: rgb(70, 67, 67);
+    font-style:italic;   
+}
+h2 {
+    color: rgb(155, 35, 35);
+}
+h1#Brabo{
+    text-align: center;
+}
