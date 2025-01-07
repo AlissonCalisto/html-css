@@ -93,7 +93,7 @@ header > h1 {
     font-family: var(--fonte-destaque);
     font-size: 3em;
     font-weight: normal;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
 }
 header > p {
@@ -102,7 +102,7 @@ header > p {
     font-family: var(--fonte-padrao);
     max-width: 500px;
     margin: auto;
-    margin-bottom:20px ;
+    padding-bottom:20px ;
     padding-right:10px ;
     padding-left:10px ;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.411);
