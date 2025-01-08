@@ -1,0 +1,173 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to bottom, #000000, #111111);
+    color: #FFFFFF;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: linear-gradient(to right, #000, #222);
+    border-bottom: 2px solid #D8AA3A;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header .logo img {
+    height: 60px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+header nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    transition: color 0.3s, transform 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #D8AA3A;
+    transform: scale(1.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: radial-gradient(circle, #000000, #222222);
+    color: #FFFFFF;
+    box-shadow: inset 0 -4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #D8AA3A;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+section {
+    padding: 60px 40px;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 15px;
+    background: rgba(34, 34, 34, 0.9);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+section h2 {
+    color: #D8AA3A;
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.trophies {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.trophies li {
+    padding: 30px;
+    background: linear-gradient(135deg, #111, #222);
+    border: 2px solid #D8AA3A;
+    border-radius: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.trophies li:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: rgba(17, 17, 17, 0.95);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+form label {
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    padding: 15px;
+    border: 1px solid #D8AA3A;
+    border-radius: 10px;
+    background-color: #222;
+    color: #FFF;
+    font-size: 1em;
+    outline: none;
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #D8AA3A;
+    box-shadow: 0 0 10px #D8AA3A;
+}
+
+form button {
+    padding: 15px;
+    background: linear-gradient(to right, #D8AA3A, #FFC107);
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+form button:hover {
+    background: linear-gradient(to right, #FFC107, #D8AA3A);
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #000, #111);
+    border-top: 2px solid #D8AA3A;
+    color: #FFF;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
