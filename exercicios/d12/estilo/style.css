@@ -73,6 +73,7 @@ section.imagem{
     color: white;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-attachment: fixed;
+    background-size: cover;
 }
 section.imagem > p {
     display: inline-block;
@@ -83,14 +84,11 @@ section.imagem > p {
 section#img01 {
     background-image: url('../imagens/background001.jpg');
     background-position: right center;
-    background-size: cover;
 }
 
 section#img02{
     background-image: url(../imagens/background002.jpg);
     background-position: right center;
-    background-size: cover;
-
 }
 
 
