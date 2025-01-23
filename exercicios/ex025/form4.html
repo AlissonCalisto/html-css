@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Assine para ser contratado pelo vasco</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Dados</legend>
+            <p>
+                <label for="iemail">E-mail</label> <input type="email" name="email" id="iemail" required>
+            </p>
+            <p>
+               <label for="itelefone">Telefone</label> <input type="tel" name="telefone" id="itelefone">
+            </p>
+            </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+            </p>
+
+            <fieldset>
+                <legend>Vasco ou Basquete</legend>
+                <input type="checkbox" name="esbas" id="iesbas"><label for="iesbas">Basquete</label> <br>
+                <input type="checkbox" name="evas" id="ievas"><label for="ievas">vasco</label>
+            </fieldset>
+        <fieldset>
+            <legend>sexo</legend>
+            <input type="radio" name="sex" id="imasc" 
+            value="M"><label for="imasc">Masculino</label>
+            <input type="radio" name="sex" id="ifem"><label for="ifem" value="F">Feminino</label>
+
+        </fieldset>
+
+        <p><input type="color" name="cor" id="icor">COR</p>
+        <p><input type="range" name="av" id="iav">Avaliacao</p>
+        <p><input type="file" name="img" id="iimg">Foto</p>
+
+    </form>
+
+</body>
+</html>
