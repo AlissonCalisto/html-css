@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo formulario</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get"></form>
+    <label for="iest">Estado:</label>
+    <select name="estado" id="iest">
+
+        <option value="" selected>-- Selecione --</option>
+    <optgroup label="Melhores">
+        <option value="SE">Sergipe</option>
+        <option value="AL">Alagoas</option>
+        <option value="SP">Santos</option>
+    </optgroup>
+    <optgroup label="Piores">
+        <option value="RJ">Rxota</option>
+        <option value="MT">ExVasco</option>
+        <option value="JP">Craque</option>
+    </optgroup>
+</select>
+
+<p>
+    <label for="iprof">Profissão:</label>
+    <input type="text" name="prof" id="iprof" list="profissoes">
+    <datalist id="profissoes">
+        <option>atacante</option>
+        <option>volante</option>
+        <option>zagueiro</option>
+    </datalist>
+</p>
+
+<p>
+    <label for="imsg">Mensagem:</label> <br>
+    <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+
+
+</p>
+
+    
+</body>
+</html>
