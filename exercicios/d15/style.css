@@ -17,8 +17,8 @@ main{
 }
 section#login{
     background-color: transparent;
-    width: 380px;
-    height: 550px;
+    width: 70vw;
+    height: 70vh;
     border-radius: 8px;
     position: absolute;
     top: 50%;
@@ -32,7 +32,7 @@ section#login{
 section#login > div#imagem {background: rgb(0, 0, 0) url(20241209-213411-1-6-pablo-vegetti-do-vasco-comemora-gol-marcado-no-brasileirao---foto-andre-durao.jpg);
     display: block;
     width: 100%;
-    height: 248px;
+    height: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
