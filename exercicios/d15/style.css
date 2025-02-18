@@ -17,8 +17,8 @@ main{
 }
 section#login{
     background-color: transparent;
-    width: 80vw;
-    height: 70vh;
+    width: 90vw;
+    height: 75vh;
     border-radius: 8px;
     position: absolute;
     top: 50%;
