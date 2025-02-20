@@ -6,6 +6,7 @@
     <title>Procura-se Ponta</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mediaquery.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <main>
@@ -16,7 +17,21 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Joga na ponta esquerda ou direita? Faça login e se candidate aqui!</p>
-                <form action="login.php" method="post"></form>
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span class="material-icons">email</span>
+                        <input type="email" name="login" id="ilogin" placeholder="Seu e-mail" autocomplete="email" required>
+                        <label for="ilogin">Login</label>
+                        <br>
+                    </div>
+                    <div class="campo">
+                        <span class="material-icons">lock</span>
+                        <input type="password" name="senha" id="isenha" placeholder="Sua senha" autocomplete="current-password" required minlength="8" maxlength="20">
+                        <label for="isenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Candidatar-se">
+                    <a href="esqueci.html" class="botao">Esqueceu a senha?</a>
+                </form>
 
             </div>
 
