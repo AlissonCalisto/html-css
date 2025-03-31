@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+:root{
+    --vd1:#5C7356 ;
+    --vd2:#7C8C03 ;
+    --bg: #D9BFA9 ;
+    --mr: #5E2B10 ;
+    --cz: #F2F2F2;
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #D9BFA9;
+}
+
+div#titulo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+body > header> div > h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.53em;
+    width: 40px;
+    text-align: center;
+    color: black;
+    
+}
+
+body > header> div > span{
+    width: 40px;
+    text-align: center;
+    color:black;
+    cursor: pointer;
+}
+
+body > header > div > img{
+    height: 40px;
+    width: 40px;
+}
+
+ul#nav{
+    background-color: #5C7356;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+    border-radius: 2px;
+    height: 40px;
+}
+
+ul#nav > li {
+    font-size: 0.6em;
+    align-self: center;
+}
+
+ul#nav > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+img#capu{
+    width: 100px;
+    height: 100px;
+}
+
+section#produtos> ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+section#produtos > ul > li{
+    background-color: #5C7356;
+    width: 40%;
+    height: 170px;
+    text-align: center;
+    list-style-type: none;
+    margin-top: 10px;
+}
